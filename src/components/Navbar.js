@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../logo.jpg';
+import {Link }from 'react-router-dom';
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navigation sidebar-left block bg-contrast">
@@ -23,9 +24,11 @@ export default function Navbar() {
                     <li className="nav-item"><a className="nav-link" href="/">Get Involved</a></li>
                 </ul>
                 <span className="navbar-divider"></span>
+                <Link to="/donate">
                 <nav className="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
-                    <a className="btn btn-rounded btn-success px-3" href="/donate"><span className="d-lg-inline bold">DONATE</span></a>
+                    <button className="btn btn-rounded btn-success px-3"></button>
                 </nav>
+                </Link>
             </div>
         </div>
     </nav>
