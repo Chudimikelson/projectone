@@ -105,8 +105,8 @@ class Donate extends Component {
           <div className="col-md-6">
           
             <div className="text-center">
-              <p>Donate ${this.state.amount}<a className="btn btn-rounded btn-success ml-3 px-3" href="/donate"><span className=" bold">PAYPAL</span></a></p>
-              
+              <p>Donate ${this.state.amount}<a className="btn btn-rounded btn-success ml-3 px-3" ><span className=" bold">PAYPAL</span></a></p>
+              <Paypal/>
               <p>Children's Aid is exempt from federal income tax under section 501(c)(3) of the Internal Revenue Code, and contributions are tax-deductable to the extent allowed by law. Our Federal Identification Number is 13-5562191
               </p>
             </div>
